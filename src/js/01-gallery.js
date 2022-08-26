@@ -2,7 +2,7 @@
 import { galleryItems } from './gallery-items';
 // Change code below this line
 
-console.log(galleryItems);
+// console.log(galleryItems);
 
 import SimpleLightbox from 'simplelightbox';
 // Additional styles import
@@ -38,4 +38,4 @@ gallery.on('show.simplelightbox', function () {
   //   // do something…
 });
 
-console.log(gallery);
+// console.log(gallery);

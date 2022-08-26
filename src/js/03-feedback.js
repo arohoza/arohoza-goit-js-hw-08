@@ -40,7 +40,7 @@ const handleSubmit = event => {
   const userData = { email: email.value, message: message.value };
   console.log(userData);
   storageApi.remove(STORAGE_FORM_KEY);
-  event.target.reset;
+  event.target.reset();
 };
 
 formRef.addEventListener('submit', handleSubmit);
